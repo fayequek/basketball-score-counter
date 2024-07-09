@@ -1,5 +1,5 @@
 let scoreHome = document.getElementById("score-home")
-let scoreGuest = document.getElementById("score-guest")
+let scoreAway = document.getElementById("score-away")
 
 let score = 0
 let count = 0
@@ -23,22 +23,22 @@ function increment3() {
 //increment for guest
 function increase1() {
      count += 1
-     scoreGuest.textContent = count
+     scoreAway.textContent = count
 }
 
 function increase2() {
      count += 2
-     scoreGuest.textContent = count
+     scoreAway.textContent = count
 }
 
 function increase3() {
      count += 3
-     scoreGuest.textContent = count
+     scoreAway.textContent = count
 }
 
 //reset score for new game
 function reset() {
      scoreHome.textContent = 0
-     scoreGuest.textContent = 0
+     scoreAway.textContent = 0
 }
 
