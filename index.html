@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 class ="score-home" id="score-home">0</h1>
+                <button onclick="increment1()">+1</button>
+                <button onclick="increment2()">+2</button>
+                <button onclick="increment3()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h1 class ="score-guest" id="score-guest">0</h1>
+                <button onclick="increase1()">+1</button>
+                <button onclick="increase2()">+2</button>
+                <button onclick="increase3()">+3</button>
+            </div>
+        </div>
+        <button class="new-btn" onclick="reset()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(./basketball.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    width: 300px;
+    margin: 20px auto;
+    background: #e36414;
+    font-family: monospace bold;
+    padding: 0 0 20px 0;
+}
+
+.score-home {
+    background: #121212;
+    padding: 10px;
+    color: red;
+    font-family:monospace;
+}
+
+.score-guest {
+    background: #121212;
+    padding: 10px;
+    color: red;
+    font-family:monospace;
+}
+button {
+    font-weight: lighter;
+    font-size: smaller;
+    border: 1px solid whitesmoke;
+    background: #370617;
+    color: whitesmoke;
+    border-radius: 20%;
+}
+
+.new-btn {
+    width: 90px;
+    padding: 5px;
+    border-radius: 10%;
+}
